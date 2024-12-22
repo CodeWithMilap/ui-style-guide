@@ -1,0 +1,125 @@
+  <div className="bg-white p-10 h-full grow rounded-md shadow-2xl">
+        <div className="flex flex-col gap-20">
+          <h2 className="text-primary text-6xl">
+            02. <span className="font-semibold">Typography</span>
+          </h2>
+
+          {/* Heading Typography */}
+          <div className="py-8">
+            <div className="grid grid-cols-12 gap-5 w-full">
+              <div className="col-span-3 text-gray-400 overflow-hidden">
+                <span className="text-[232px] leading-none font-bold">
+                  A<span className="font-normal">a</span>
+                </span>
+                <p className="text-3xl font-medium mt-4">Heading</p>
+                <p className="text-basse mt-2">
+                  Line height and paragraph spacing for heading is 1.1 x font
+                  size
+                </p>
+              </div>
+              <div className=" gap-12 flex flex-col col-span-9 w-full">
+                <div>
+                  <h3 className="text-5xl font-bold">Inter</h3>
+                  <p className="mb-8 text-sm text-gray-500">Google Fonts</p>
+                </div>
+                {/* Table */}
+                <div className="grid grid-cols-3 gap-8 text-left">
+                  <p className="text-sm text-gray-500 font-semibold">Name</p>
+                  <p className="text-sm text-gray-500 font-semibold">
+                    Font size
+                  </p>
+                  <p className="text-sm text-gray-500 font-semibold">
+                    Line Height
+                  </p>
+                </div>
+                <div className="grid grid-cols-3 gap-8 text-left">
+                  <p className="text-5xl font-bold">Heading 1</p>
+                  <p className="text-sm">56 px</p>
+                  <p className="text-sm">61.6 px</p>
+
+                  <p className="text-4xl font-bold">Heading 2</p>
+                  <p className="text-sm">48 px</p>
+                  <p className="text-sm">52.8 px</p>
+
+                  <p className="text-3xl font-bold">Heading 3</p>
+                  <p className="text-sm">40 px</p>
+                  <p className="text-sm">44 px</p>
+
+                  <p className="text-2xl font-bold">Heading 4</p>
+                  <p className="text-sm">32 px</p>
+                  <p className="text-sm">35.2 px</p>
+
+                  <p className="text-xl font-bold">Heading 5</p>
+                  <p className="text-sm">24 px</p>
+                  <p className="text-sm">26.4 px</p>
+
+                  <p className="text-lg font-bold">Heading 6</p>
+                  <p className="text-sm">20 px</p>
+                  <p className="text-sm">22 px</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Body Typography */}
+          <div className="py-8 ">
+            <div className="grid grid-cols-12 gap-5 w-full">
+              <div className="col-span-3 text-gray-400 overflow-hidden">
+                <span className="text-[232px] leading-none font-bold">
+                  A<span className="font-normal">a</span>
+                </span>
+                <p className="text-3xl font-medium mt-4">Body</p>
+                <p className="text-basse mt-2">
+                  Line height and paragraph spacing for body text is 1.4 x font
+                  size
+                </p>
+              </div>
+              <div className="gap-12 flex flex-col col-span-9 w-full">
+                <div>
+                  <h3 className="text-5xl font-bold">Inter</h3>
+                  <p className="mb-8 text-sm text-gray-500">Google Fonts</p>
+                </div>
+                {/* Table */}
+                <div className="grid grid-cols-3 gap-8 text-left">
+                  <p className="text-sm text-gray-500 font-semibold">Name</p>
+                  <p className="text-sm text-gray-500 font-semibold">
+                    Font size
+                  </p>
+                  <p className="text-sm text-gray-500 font-semibold">
+                    Line Height
+                  </p>
+                </div>
+                <div className="grid grid-cols-3 gap-8 text-left">
+                  <p className="text-lg font-bold flex flex-col gap-1">
+                    Large Text Bold{" "}
+                    <span className="font-normal">Large Text Regular</span>
+                  </p>
+                  <p className="text-sm">20 px</p>
+                  <p className="text-sm">28 px</p>
+
+                  <p className="text-base font-bold flex flex-col gap-1">
+                    Medium Text Bold
+                    <span className="font-normal">Medium Text Bold</span>
+                  </p>
+                  <p className="text-sm">18 px</p>
+                  <p className="text-sm">25.2 px</p>
+
+                  <p className="text-sm font-bold flex flex-col gap-1">
+                    Normal Text Bold
+                    <span className="font-normal">Normal Text Bold</span>
+                  </p>
+                  <p className="text-sm">16 px</p>
+                  <p className="text-sm">22.4 px</p>
+
+                  <p className="text-xs font-bold flex flex-col gap-1">
+                    Small Text Bold{" "}
+                    <span className="font-normal">Small Text Bold</span>
+                  </p>
+                  <p className="text-sm">14 px</p>
+                  <p className="text-sm">19.6 px</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
